@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="659dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="101dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="145dp"
+                android:layout_height="117dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/primary" />
+
+            <TextView
+                android:layout_width="334dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Hello...\n Add Pet Details"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/petName"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:hint="Pet Name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/peth"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Height"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/petw"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Weight"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/petg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Gender"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/petv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:hint="Vaccination"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="122dp"
+            android:layout_height="26dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="47dp">
+
+            <Button
+                android:id="@+id/dbutton"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/black"
+                android:onClick="CancelPet"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/et_btnF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/black"
+                android:onClick="SavePet"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
