@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473001898310",
+    "project_id": "fadoc-85a1f",
+    "storage_bucket": "fadoc-85a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473001898310:android:5f5131ae3b9f1e5ae93547",
+        "android_client_info": {
+          "package_name": "com.example.fadoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473001898310-461to2gjp7gi5d0hjd0e4c3imlrf5tm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCFCYGNVSEIg7asKwHDuNgbfxfrSTO1-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473001898310-461to2gjp7gi5d0hjd0e4c3imlrf5tm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
